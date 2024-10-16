@@ -1,0 +1,12 @@
+// Some Rules
+
+root = true
+
+[*]
+
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = If
+indent_final_newLine = true
+trim_trailling_whitespace = true

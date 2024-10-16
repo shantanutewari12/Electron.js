@@ -1,0 +1,35 @@
+{
+  "name": "electronjs",
+  "version": "0.0.1",
+  "description": "A Basic To-Do app to explore the working of Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanutewari12/Electron.js.git"
+  },
+  "keywords": [
+    "electron",
+    "reactjs",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "Shantanu Tiwari",
+  "license": " MIT",
+  "bugs": {
+    "url": "https://github.com/shantanutewari12/Electron.js/issues"
+  },
+  "homepage": "https://github.com/shantanutewari12/Electron.js#readme",
+  "dependencies": {
+    "electron": "^33.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
