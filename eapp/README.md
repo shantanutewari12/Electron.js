@@ -21,12 +21,12 @@ This project is a **To-Do List Application** built using **Electron.js**, **Reac
      - Electron listens for when the app is "ready" and then calls the `createMainWindow` function.
      - The `startUrl` is set to the `build/index.html` file, which is the entry point for the React application.
 
-### 2. `app.tsx` (React Entry Point):
+### 2. `App.tsx` (React Entry Point):
    - This file acts as the entry point for the React portion of the application.
    - It simply imports and renders the `ToDo` component, which holds the main logic for displaying and managing tasks.
    - The structure is kept minimal for cleanliness and to delegate functionality to child components (`ToDo`).
 
-### 3. `to_do.tsx` (React To-Do Component):
+### 3. `To_Do.tsx` (React To-Do Component):
    - This is the core component where the **To-Do List** functionality is implemented.
    - **State management** is done using React's `useState` hooks:
      - `tasks`: an array that holds the list of tasks.
